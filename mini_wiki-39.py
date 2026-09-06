@@ -1,0 +1,27 @@
+# === Stage 39: Добавь документационную строку с описанием сценариев использования ===
+# Project: MiniWiki
+def print_usage():
+    """Print a compact usage guide for MiniWiki."""
+    print("=" * 50)
+    print("MiniWiki — Usage Guide")
+    print("=" * 50)
+    print("\n1. Create a new note:")
+    print("   miniwiki create <title> [--tag tag1,tag2] [--category cat]")
+    print("\n2. Read a note:")
+    print("   miniwiki read <title>")
+    print("\n3. Edit a note (open in editor):")
+    print("   miniwiki edit <title>")
+    print("\n4. Search notes:")
+    print("   miniwiki search <query>")
+    print("\n5. List all notes:")
+    print("   miniwiki list")
+    print("\n6. View note history:")
+    print("   miniwiki history <title>")
+    print("\n7. Delete a note:")
+    print("   miniwiki delete <title>")
+    print("\n8. Show usage help:")
+    print("   miniwiki --help")
+    print("\nNotes are stored in ~/.miniwiki/notes/ as .md files.")
+    print("History is stored in ~/.miniwiki/history/ as .json files.")
+    print("Categories and tags help organize your notes.")
+    print("=" * 50)
